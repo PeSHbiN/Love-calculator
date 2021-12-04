@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body{
+            background-color: #ffccff;
+
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+        }
+        .form{
+            background-color: #ff99ff;
+            box-shadow: 5px 10px 5px 10px #888888;
+            width: 250px;
+            height: 500px;
+            border-radius: 10px;
+        }
+        form{
+            padding: 10px;
+            margin: 10px;
+        }
+        .button{
+            background-color: #6699ff;    
+        }
+        input{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="flex">
+        <div class="form">
+            <form method="get" action="Love.php">
+                YOUR NAME:<br><br> <input type="text" name="name1"><br>
+                <input type="radio" name="Gender1">MALE
+                <input type="radio" name="Gender1">FEMALE<br><br><br><br>
+
+                PARTNER'S NAME:<br><br> <input type="text" name="name2"><br>
+                <input type="radio" name="Gender2">MALE
+                <input type="radio" name="Gender2">FEMALE<br><br><br><br>
+                <input type="submit" value="CALCULATE LOVE %" class="button" name="button"><br>
+                
+                
+            </form>
+        </div>  
+    </div>
+       
+</body>
+</html>
